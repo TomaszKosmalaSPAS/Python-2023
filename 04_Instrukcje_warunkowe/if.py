@@ -51,3 +51,13 @@ else:
     print(f'{i} jest nieparzyste')
 
 
+
+a = int(input("Podaj liczbe"))
+b = int(a//10)
+c = a%10
+i = b+c
+if (i % 7 == 0 and a % 2 == 0):
+    print('Dobra liczba')
+else:
+    print('Zla Liczba')
+

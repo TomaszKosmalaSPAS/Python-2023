@@ -47,3 +47,15 @@ s2.join(["Ala", "ma", "kota"])
 3 in l
 
 l.insert(2, 100)
+
+
+lista = []
+while True:
+    lst = input("cos")
+    if (lst == " "):
+        break
+    list.append(lst)
+
+lista.sort(key=str)
+
+

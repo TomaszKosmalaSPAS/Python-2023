@@ -20,3 +20,6 @@ slownik = {z: 3}  # Błąd
 fz = frozenset(z)
 slownik = {fz: 3}
 slownik
+
+zwykly_zbior = set(fz)
+zwykly_zbior
